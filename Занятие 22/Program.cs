@@ -23,7 +23,7 @@ namespace Занятие_22
             {
                 m[i] = random.Next(0, 100);
                 Console.Write($"{m[i]}\t");
-                Thread.Sleep(10);
+                Thread.Sleep(50);
             }
             Console.WriteLine();
             Task task1 = new Task(Sum);
