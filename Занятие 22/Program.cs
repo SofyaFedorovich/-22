@@ -41,7 +41,7 @@ namespace Занятие_22
             {
                 sum += m[i];
             }
-            Console.WriteLine($"Сумма чисел: {sum}");
+            Console.WriteLine($"Сумма чисел массива: {sum}");
         }
         static void Max(Task task) //метод для нахождения максимального сичла в массиве
         {
@@ -54,7 +54,7 @@ namespace Занятие_22
                     max = m[i];
                 }
             }
-            Console.WriteLine($"Максимальное число: {max}");
+            Console.WriteLine($"Максимальное число в массиве: {max}");
         }
     }
 }
