@@ -43,7 +43,7 @@ namespace Занятие_22
             }
             Console.WriteLine($"Сумма чисел массива: {sum}");
         }
-        static void Max(Task task) //метод для нахождения максимального сичла в массиве
+        static void Max(Task task) //метод для нахождения максимального числа в массиве
         {
             int[] array = m;
             int max = 0;
