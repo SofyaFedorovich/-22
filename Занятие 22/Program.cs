@@ -29,7 +29,7 @@ namespace Занятие_22
             Task task1 = new Task(Sum);
             Task task2 = task1.ContinueWith(Max); //задача продолжения
             task1.Start();
-            task2.Wait();
+            
             Console.ReadKey();
 
         }
